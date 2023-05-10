@@ -1,0 +1,15 @@
+app:
+  name: poi-map-app
+  namespace: jxrht-gh2-4
+  cluster: .apps.summit23bis.17gd.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/Summit23JanusN/jxrht-gh2-4-frontend
+  org: Summit23JanusN
+  name: jxrht-gh2-4-frontend
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: jxrht-gh2-4/poi-map-app
+  tag: latest
